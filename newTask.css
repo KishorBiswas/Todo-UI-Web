@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pop_Up{
+    width: 352px;
+    height: 210px;
+    margin-top: -40px;
+}
+
+
+.pop_Up input{
+    height: 30px;
+  
+}
+
+.pop_Up button{
+    width: 140px;
+    height: 30px;
+    margin-top: 4px !important;
+}

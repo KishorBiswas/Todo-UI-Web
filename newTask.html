@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Task</title>
+
+     <!-- Font Awesome CDN Link -->
+     <script src="https://kit.fontawesome.com/dd14d179ff.js" crossorigin="anonymous"></script>
+
+     <!-- Link singleTask css  -->
+     <link rel="stylesheet" href="./singelTodoTask.css">
+
+    <!-- Link addTask Css -->
+    <link rel="stylesheet" href="./addTask.css">
+
+     <!-- link  newtask css-->
+     <link rel="stylesheet" href="./newTask.css">
+
+</head>
+<body>
+   
+        <main>
+       
+            <nav>
+                <h1>Tasks <span>List</span></h1>
+            </nav>
+
+            <section class="container">
+                <div class="singleCardContainer">
+                        <div class="addTask">
+                            <p> <span id="backBtn"><i class="fa-solid fa-arrow-left"></i></span> Back</p>
+                            <p> <span><i class="fa-solid fa-plus fa-beat-fade"></i></span> Add New Task</p>
+                        </div>
+
+                        <div class="listCard">
+
+                            <div class="todoCard">
+                                <div class="todoTitle">
+                                    <h4>Trip to paris</h4>
+                                </div>
+
+                                <div class="todoTask">
+                                    <input type="checkbox" class="todoCheck" checked  disabled/> <label class="checkLabel"><del> Visit Church &nbsp; &nbsp;   </del> </label>
+                                </div>
+
+                                <p>Shopping</p>
+                            </div>
+                        </div>
+                </div>
+            </section>
+       
+        </main>
+        <div class="overlay"></div>
+        <div class="pop_Up">
+            <div class="popUp_Title">
+                <h5>Add New Task</h5>
+                <span><a href="./singleTodo.html"><i class="fa-solid fa-xmark"></i></a></span>
+            </div>
+    
+            <input type="text" value="Visit Famous Places" />
+            <button><a href="./singleTodo.html"><i class="fa-solid fa-plus"></i> &nbsp; Add Task</a></button>
+    
+    
+        </div>
+</body>
+</html>
